@@ -1,0 +1,233 @@
+/* CSS Styles */
+
+/* Header Segement Styles */
+/* Header Icon Style */
+.Header_icon_style {
+    display: inline-block;
+    padding: 5px;
+    vertical-align: middle;
+    text-align: center;
+    width: 10%;
+}
+/* Header Title Style */
+.Header_title_style {
+    display: inline-block;
+    padding: 5px;
+    vertical-align: middle;
+    text-align: center;
+    width: 78.09999%;
+}
+/* Header Bar Style */
+.Header_bar_style {
+    height: 4px;
+    background: linear-gradient(to right, #FFD700, #FFA500, #FF6347);
+    margin-top: 0.1rem;
+}
+
+/* KPI Segement Styles */
+/* Header Styles */
+.Header_style {
+    font-size: 5;
+    text-align: center;
+    color: black; /*white*/
+}
+/* Value Styles */
+.Value_style {
+    text-align: center;
+    color: #1f2c56;
+    font-size: 200;
+}
+/* Container Styles */
+.Bg_style {
+    border-radius: 5px;
+    background-color: #f9f9f9; /*#1f2c56;*/
+    margin: 1% 1% 0px 1%; /*top, right, bottom, left*/
+    padding: 15px 15px 0px 15px; /*top, right, bottom, left*/
+    position: relative;
+    box-shadow: 2px 2px 2px #f0f0f0;
+    display: inline-block;
+    width: 12%;
+    height: 100px;
+}
+.Bg_style_1 {
+    border-radius: 5px;
+    background-color: #f9f9f9; /*#1f2c56;*/
+    margin: 1% 1% 0px 1%; /*top, right, bottom, left*/
+    padding: 15px 15px 0px 15px; /*top, right, bottom, left*/
+    position: relative;
+    box-shadow: 2px 2px 2px #f0f0f0;
+    display: inline-block;
+    width: 15%;
+    height: 100px;
+}
+
+/* Filter & KPI Segement Styles */
+.filter_segment {
+    width: 99.4%;
+    text-align: left;
+    display: inline-block;
+    margin: 1% 0.25% 0.25% 0.25%;
+    background-color: #f2f2f2;
+    vertical-align: middle;
+    
+} 
+/* Filters segment Styles */
+.filter_container {
+    width: 30%;
+    text-align: center;
+    display: inline-block;
+    margin: 0.0%;
+    background-color: #f2f2f2;
+    vertical-align: middle;
+    
+}
+/* Filters Header Styles */
+.filter_title_style {
+    font-weight: bold;
+    margin-bottom: 3px;
+    font-size: 15px;
+    text-align: center;
+    vertical-align: middle;
+}
+/* Filters Container Styles */
+.filter_style_emirate {
+    width: 58%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    margin: .5% .5% 4.5% 0%;
+}
+.filter_style_vehicle {
+    /*width: 23%;*/
+    width: 39%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0.5% .5% 4.5% .5%;
+}
+.filter_style_date {
+    width: 10%;
+    display: inline-block;
+    text-align: center;
+    margin: 0.5% 5% 4.5% .5%;
+}
+/*Filters Dropdown Style*/
+.dropdown_style {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 1px; /*top/bottom padding 8px, left/right padding 12px*/
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    width: 100%;
+    color: #333; /*Dark gray color*/
+    border-radius: 5px; /*Rounded corners*/
+    /*border: 1px solid #ccc;*/ /*Border style*/
+    box-shadow: 2px 2px 2px 2px #f9f9f9;
+}
+/*Filters tab Style*/
+.tab_style {
+    text-align: center;
+    width: 97.5%;
+    display: inline-block;
+    margin: 0px 1.25% 0.01% 1.25%; /*top, right, bottom, left*/
+    box-shadow: 3px 3px 3px #f9f9f9;
+}
+
+
+
+.filter_kpi_container {
+    width: 60%;
+    display: inline-block;
+    justify-content: space-between;
+}
+
+
+
+
+/* Filter Header Styles */
+.Filtered_KPI_Header_style {
+    font-size: 3;
+    text-align: center;
+    color: black; /*white*/
+    justify-content: space-between;
+    text-align: center;
+}
+/* Filter Header Styles */
+.Bg_Filtered_KPI_style {
+    position: relative;
+    display: inline-block;
+    width: 12%;
+    height: 1px;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 1.2%;
+}
+
+.Bg_Filtered_KPI_style_1 {
+    position: relative;
+    display: inline-block;
+    width: 15%;
+    height: 1px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+
+/* Map Styles */
+.map_title_style {
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.map_image_style {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    /*padding: 0px 1.25% 0.25% 0%;*/
+    height: 100;
+    width: 99%;
+}
+
+.map_style {
+    display: inline-block;
+    width: 36.9%;
+    vertical-align: middle;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #888;
+    margin: .5%;
+    text-align: center;
+    height: 200;
+}
+
+.map2_style {
+    display: inline-block;
+    width: 61.5%;
+    vertical-align: middle;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #888;
+    margin: 0%;
+    text-align: center;
+    height: 4000;
+}
+
+/* Bar Style */
+.Bar_style {
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    margin: 0px 0% 0.25% 1.25%;
+    padding: 0.65%;
+    position: relative;
+    /*box-shadow: 2px 2px 2px #f0f0f0;*/
+    display: inline-block;
+    width: 47.5%;
+    vertical-align: middle;
+    text-align: center;
+}
